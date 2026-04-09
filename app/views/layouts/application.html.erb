@@ -25,6 +25,10 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render "navbar" %>
+    <%= render "banner" %>
+    <div class="container w-50 mx-auto mt-5">
+      <%= yield %>
+    </div>
   </body>
 </html>
